@@ -1,25 +1,30 @@
 
 function App() {
   return (
-    <main className="flex min-h-screen items-center justify-center bg-stone-100 px-5">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-zinc-900">
+    <main className="min-h-screen bg-background px-5 py-16">
+      <div className="mx-auto max-w-site">
+        <span className="font-body text-sm font-semibold uppercase tracking-widest text-accent">
           JR Serralheria Artística
+        </span>
+
+        <h1 className="mt-4 font-heading text-4xl font-bold text-primary md:text-6xl">
+          Transformando metal em projetos únicos.
         </h1>
 
-        <p className="mt-4 text-lg text-zinc-600">
-          Transformando metal em projetos únicos.
+        <p className="mt-6 max-w-xl font-body text-base text-muted md:text-lg">
+          Projetos personalizados que unem qualidade,
+          resistência e acabamento.
         </p>
 
         <button
           type="button"
-          className="mt-6 rounded-lg bg-zinc-900 px-6 py-3 font-medium text-white transition-colors hover:bg-amber-800"
+          className="mt-8 min-h-11 rounded-button bg-primary px-6 py-3 font-body font-medium text-white transition-colors hover:bg-accent"
         >
           Conheça nossos projetos
         </button>
       </div>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;
