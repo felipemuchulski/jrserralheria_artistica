@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import type { Container } from "react-dom/client";
 
 type ContainerProps = {
   children: ReactNode;

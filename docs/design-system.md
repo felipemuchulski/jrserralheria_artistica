@@ -21,6 +21,8 @@ A interface deverá priorizar fotografias dos projetos, espaços em branco e tex
 
 Os tokens serão mantidos em `src/styles/theme.css`. Não duplicar suas definições em componentes individuais.
 
+Para texto pequeno e fundos de botões com texto branco, usar `accent-strong` (`#89552E`): contraste de 6,17:1 sobre branco e 5,66:1 sobre Background. O Accent original permanece para detalhes, indicadores e contornos de foco; seu contraste de 3,60:1 sobre branco não atende a texto pequeno.
+
 O uso da cor Accent deve ser moderado, principalmente para detalhes decorativos, indicadores e estados interativos.
 
 ## 3. Tipografia

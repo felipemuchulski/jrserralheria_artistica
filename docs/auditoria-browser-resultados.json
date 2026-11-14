@@ -1,0 +1,174 @@
+[
+  {
+    "name": "layout e modal 320px",
+    "status": "PASS",
+    "data": {
+      "x": 16,
+      "width": 288,
+      "height": 548.203125,
+      "overflow": false,
+      "body": "hidden",
+      "focus": true
+    }
+  },
+  {
+    "name": "layout e modal 375px",
+    "status": "PASS",
+    "data": {
+      "x": 16,
+      "width": 343,
+      "height": 621.515625,
+      "overflow": false,
+      "body": "hidden",
+      "focus": true
+    }
+  },
+  {
+    "name": "layout e modal 425px",
+    "status": "PASS",
+    "data": {
+      "x": 16,
+      "width": 393,
+      "height": 650.15625,
+      "overflow": false,
+      "body": "hidden",
+      "focus": true
+    }
+  },
+  {
+    "name": "layout e modal 768px",
+    "status": "PASS",
+    "data": {
+      "x": 16,
+      "width": 736,
+      "height": 712,
+      "overflow": false,
+      "body": "hidden",
+      "focus": true
+    }
+  },
+  {
+    "name": "layout e modal 1024px",
+    "status": "PASS",
+    "data": {
+      "x": 64,
+      "width": 896,
+      "height": 712,
+      "overflow": false,
+      "body": "hidden",
+      "focus": true
+    }
+  },
+  {
+    "name": "layout e modal 1440px",
+    "status": "PASS",
+    "data": {
+      "x": 272,
+      "width": 896,
+      "height": 712,
+      "overflow": false,
+      "body": "hidden",
+      "focus": true
+    }
+  },
+  {
+    "name": "menu mobile, Escape, âncora, resize, sticky",
+    "status": "PASS"
+  },
+  {
+    "name": "todos os filtros e rolagem horizontal",
+    "status": "PASS"
+  },
+  {
+    "name": "slideshow automático, pausa, retomada e indicadores",
+    "status": "PASS",
+    "data": {
+      "visible": 1,
+      "priority": "high",
+      "targets": [
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ],
+        [
+          44,
+          44
+        ]
+      ]
+    }
+  },
+  {
+    "name": "movimento reduzido inicial e alteração em tempo real",
+    "status": "PASS"
+  },
+  {
+    "name": "metadados, HTML, fontes, URLs, ARIA e imagens",
+    "status": "PASS",
+    "data": {
+      "lang": "pt-BR",
+      "description": true,
+      "h1": 1,
+      "invalid": 0,
+      "url": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Metal%20%26%20madeira%3F",
+      "instagram": "https://www.instagram.com/jrserralheria_artistica/",
+      "links": [
+        {
+          "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+          "rel": "noopener noreferrer"
+        },
+        {
+          "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "missingAria": [],
+      "fonts": true,
+      "images": [
+        {
+          "src": "/images/projects/moveis-artisticos/estante-ampla-metal-madeira.webp",
+          "status": 200
+        },
+        {
+          "src": "/images/projects/moveis-artisticos/estante-vertical-metal-madeira.webp",
+          "status": 200
+        },
+        {
+          "src": "/images/projects/moveis-artisticos/prateleira-suspensa-cozinha.webp",
+          "status": 200
+        }
+      ]
+    }
+  },
+  {
+    "name": "modal 0/1/3 imagens, circularidade, desmontagem e foco",
+    "status": "PASS"
+  },
+  {
+    "name": "slideshow vazio/único/array reduzido, card sem foto e botão disabled",
+    "status": "PASS"
+  },
+  {
+    "name": "FeaturedProjects: featured, limite de três e lista vazia",
+    "status": "PASS"
+  },
+  {
+    "name": "limpeza de intervalos do slideshow em Strict Mode",
+    "status": "PASS"
+  },
+  {
+    "name": "sem exceções JavaScript",
+    "status": "PASS"
+  }
+]

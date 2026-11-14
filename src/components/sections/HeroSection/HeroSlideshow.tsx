@@ -12,7 +12,7 @@ type HeroSlideshowProps = {
 export function HeroSlideshow({ images }: HeroSlideshowProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const [reduceMotion, setReduceMotion] = useState(false);
+  const [reduceMotion, setReduceMotion] = useState(() => window.matchMedia("(prefers-reduced-motion: reduce)").matches);
 
   // Consulta a preferência de movimento do usuário
   useEffect(() => {
@@ -55,7 +55,18 @@ export function HeroSlideshow({ images }: HeroSlideshowProps) {
   const activeIndex = currentIndex % images.length;
 
   return (
-    <div className="w-full">
+    <div
+      className="w-full"
+      role="region"
+      aria-label="Fotografias de projetos"
+      aria-roledescription="carrossel"
+      onFocusCapture={(event) => {
+        if (
+          !event.currentTarget.contains(event.relatedTarget) &&
+          !(event.target instanceof Element && event.target.closest("[data-slideshow-playback]"))
+        ) setIsPaused(true);
+      }}
+    >
       <div className="relative aspect-[4/5] overflow-hidden rounded-card bg-surface sm:aspect-[5/4] lg:aspect-[4/5]">
         {images.map((image, index) => (
           <img
@@ -82,22 +93,30 @@ export function HeroSlideshow({ images }: HeroSlideshowProps) {
               type="button"
               aria-label={`Mostrar fotografia ${index + 1}`}
               aria-current={index === activeIndex ? "true" : undefined}
-              onClick={() => setCurrentIndex(index)}
-              className={`h-3 rounded-full transition-all duration-300 motion-reduce:transition-none ${
-                index === activeIndex
-                  ? "w-8 bg-accent"
-                  : "w-3 bg-border hover:bg-muted"
-              }`}
-            />
+              onClick={() => {
+                setCurrentIndex(index);
+                setIsPaused(true);
+              }}
+              className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-button"
+            >
+              <span
+                aria-hidden="true"
+                className={`h-3 rounded-full transition-all duration-300 motion-reduce:transition-none ${
+                  index === activeIndex ? "w-8 bg-accent" : "w-3 bg-muted"
+                }`}
+              />
+            </button>
           ))}
 
           <button
             type="button"
+            data-slideshow-playback
             onClick={() => setIsPaused((previous) => !previous)}
-            aria-label={isPaused ? "Reproduzir slideshow" : "Pausar slideshow"}
-            className="ml-2 inline-flex min-h-11 min-w-11 items-center justify-center rounded-button text-primary hover:bg-surface"
+            disabled={reduceMotion}
+            aria-label={reduceMotion ? "Reprodução automática desativada por preferência de movimento reduzido" : isPaused ? "Reproduzir slideshow" : "Pausar slideshow"}
+            className="ml-2 inline-flex min-h-11 min-w-11 items-center justify-center rounded-button text-primary hover:bg-surface disabled:opacity-50"
           >
-            {isPaused ? "▶" : "Ⅱ"}
+            {isPaused || reduceMotion ? "▶" : "Ⅱ"}
           </button>
         </div>
       )}

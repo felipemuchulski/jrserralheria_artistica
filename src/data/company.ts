@@ -11,5 +11,5 @@ export function createWhatsAppLink(
 ) {
     const text = encodeURIComponent(message);
 
-    return `ttps://wa.me/${company.whatsapp}?text=${text}`
+    return `https://wa.me/${company.whatsapp}?text=${text}`
 }

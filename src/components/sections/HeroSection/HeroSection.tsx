@@ -1,5 +1,6 @@
 import { Container } from "../../ui/Container/Container";
 import { Button } from "../../ui/Button/Button";
+import { createWhatsAppLink } from "../../../data/company";
 import { HeroSlideshow } from "./HeroSlideshow";
 
 const heroImages = [
@@ -21,15 +22,15 @@ export function HeroSection() {
   return (
     <section
       id="inicio"
-      aria-labelledby="herro-title"
-      className="scroll-mt-24 py-12 md:py-20 lg:py-28"
+      aria-labelledby="hero-title"
+      className="scroll-mt-24 py-16 md:py-20 lg:py-28"
     >
       <Container>
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           {/* Conteúdo textual */}
 
           <div className="flex flex-col items-start">
-            <span className="mb-4 font-body text-xs font-semibold uppercase tracking-widest text-accent ">
+            <span className="mb-4 font-body text-xs font-semibold uppercase tracking-widest text-accent-strong ">
               JR Serralheria Tradicional e Artística
             </span>
 
@@ -45,7 +46,7 @@ export function HeroSection() {
               sob medida em Caxias do Sul.
             </p>
 
-            <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
+            <div className="mt-8 flex w-full flex-col gap-3 sm:w-auto sm:flex-row sm:flex-wrap">
               <Button
                 variant="primary"
                 href="#projetos"
@@ -54,7 +55,14 @@ export function HeroSection() {
                 Conheça nossos projetos!
               </Button>
 
-              <Button variant="secondary"> Entre em contato conosco!</Button>
+              <Button
+                variant="secondary"
+                href={createWhatsAppLink()}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Entre em contato conosco!
+              </Button>
             </div>
           </div>
 

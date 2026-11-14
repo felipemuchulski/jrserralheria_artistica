@@ -44,7 +44,7 @@ A interface será composta pelas seguintes seções:
 3. FeaturedProjects - Projetos em destaque.
 4. PortfolioSection - Galeria completa com filtros.
 5. AboutSection - Apresentação da empresa.
-6. ContractSection - Contato comercial e orçamento.
+6. ContactSection - Contato comercial e orçamento.
 7. Footer - Informações e links complementares.
 
 ### 5. Tecnologias
@@ -69,7 +69,7 @@ Bibliotecas adicionais serão avaliadas conforme a necessidade de cada component
 ### 7. Organização da documentação
 
 - README.md - Visão geral do projeto
-- desing-system.md - Regras visuais e de responsividade.
+- design-system.md - Regras visuais e de responsividade.
 - architecture.md - Organização de componentes e arquivos.
 
 ### Publicação 

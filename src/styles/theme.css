@@ -4,6 +4,8 @@
   --color-background: #f7f5f0;
   --color-primary: #24282c;
   --color-accent: #b77945;
+  /* Variante para texto pequeno e fundos com texto branco (contraste AA). */
+  --color-accent-strong: #89552e;
   --color-surface: #ffffff;
   --color-muted: #62686b;
   --color-border: #e5e2dc;

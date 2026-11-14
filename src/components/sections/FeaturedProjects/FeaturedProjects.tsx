@@ -20,7 +20,7 @@ export function FeaturedProjects() {
       <Container>
         {/* Cabeçalho da seção */}
         <div className="mb-10 max-w-2xl">
-          <span className="font-body text-xs font-semibold uppercase tracking-widest text-accent">
+          <span className="font-body text-xs font-semibold uppercase tracking-widest text-accent-strong">
             Projetos selecionados
           </span>
 
@@ -47,7 +47,7 @@ export function FeaturedProjects() {
         <div className="mt-10 text-center">
           <a
             href="#projetos"
-            className="inline-flex min-h-11 items-center font-body font-semibold text-primary underline decoration-accent underline-offset-8 transition-colors hover:text-accent"
+            className="inline-flex min-h-11 items-center font-body font-semibold text-primary underline decoration-accent underline-offset-8 transition-colors hover:text-accent-strong"
           >
             Explorar todos os projetos
             <span aria-hidden="true" className="ml-2">
