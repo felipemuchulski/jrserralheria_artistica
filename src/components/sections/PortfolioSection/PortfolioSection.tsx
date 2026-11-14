@@ -43,7 +43,7 @@ export function PortfolioSection() {
     <section
       id="projetos"
       aria-labelledby="portfolio-title"
-      className="scroll-mt-24 bg-background py-16 lg:py-28"
+      className="scroll-mt-24 bg-background py-16 lg:py-20"
     >
       <Container>
         {/* Apresentação da seção */}
@@ -101,7 +101,7 @@ export function PortfolioSection() {
 
         {/* Galeria de projetos */}
         {filteredProjects.length > 0 ? (
-          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3">
             {filteredProjects.map((project) => (
               <ProjectCard
                 key={project.id}

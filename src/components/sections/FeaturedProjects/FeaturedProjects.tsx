@@ -15,11 +15,11 @@ export function FeaturedProjects() {
   return (
     <section
       aria-labelledby="featured-projects-title"
-      className="bg-background py-16 lg:py-28"
+      className="bg-background py-16 lg:py-20"
     >
       <Container>
         {/* Cabeçalho da seção */}
-        <div className="mb-10 max-w-2xl">
+        <div className="mb-8 max-w-2xl">
           <span className="font-body text-xs font-semibold uppercase tracking-widest text-accent-strong">
             Projetos selecionados
           </span>
@@ -37,14 +37,14 @@ export function FeaturedProjects() {
         </div>
 
         {/* Grade de projetos */}
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 lg:gap-8 md:grid-cols-2 lg:grid-cols-3">
           {featuredProjects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
 
         {/* Navegação para o portfólio */}
-        <div className="mt-10 text-center">
+        <div className="mt-8 text-center">
           <a
             href="#projetos"
             className="inline-flex min-h-11 items-center font-body font-semibold text-primary underline decoration-accent underline-offset-8 transition-colors hover:text-accent-strong"

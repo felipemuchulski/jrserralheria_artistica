@@ -39,7 +39,7 @@ export function ProjectCard({
         )}
       </div>
 
-      <div className="space-y-2 p-4">
+      <div className="flex flex-1 flex-col items-start gap-2 p-4 md:p-5">
         <span className="font-body text-xs font-semibold uppercase tracking-wide text-accent-strong">
           {categoryName}
         </span>
@@ -56,7 +56,7 @@ export function ProjectCard({
   );
 
   return (
-    <article className={`relative overflow-hidden rounded-card border border-border bg-surface ${onSelect ? "group transition-shadow hover:shadow-lg" : ""}`}>
+    <article className={`relative flex h-full flex-col overflow-hidden rounded-card border border-border bg-surface ${onSelect ? "group transition-shadow hover:shadow-lg" : ""}`}>
       {content}
       {onSelect && (
         <button

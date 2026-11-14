@@ -51,7 +51,7 @@ export function Header() {
       className="sticky top-0 z-50 border-b border-border bg-background"
     >
       <Container>
-        <div className="flex min-h-20 items-center justify-between gap-4">
+        <div className="flex min-h-20 items-center justify-between gap-4 lg:gap-6">
 
           {/* Identidade da empresa */}
           <a

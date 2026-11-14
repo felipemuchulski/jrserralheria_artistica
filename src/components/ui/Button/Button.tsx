@@ -4,7 +4,7 @@ import type {
   ReactNode,
 } from "react";
 
-type ButtonVariant = "primary" | "secondary";
+type ButtonVariant = "primary" | "secondary" | "inverse";
 
 type BaseProps = {
   children: ReactNode;
@@ -28,14 +28,14 @@ const baseStyles =
   "inline-flex min-h-11 items-center justify-center gap-2 " +
   "rounded-button px-6 py-3 font-body text-base font-semibold " +
   "transition-colors duration-200 " +
-  "focus-visible:outline-2 focus-visible:outline-offset-2 " +
-  "focus-visible:outline-accent";
+  "focus-visible:outline-2 focus-visible:outline-offset-2";
 
 const variantStyles: Record<ButtonVariant, string> = {
-  primary: "bg-primary text-white hover:bg-accent-strong",
+  inverse: "border border-surface bg-surface text-primary hover:bg-background hover:border-background focus-visible:outline-surface",
+  primary: "bg-primary text-white hover:bg-accent-strong focus-visible:outline-accent",
   secondary:
     "border border-primary bg-transparent text-primary " +
-    "hover:bg-primary hover:text-white",
+    "hover:bg-primary hover:text-white focus-visible:outline-accent",
 };
 
 export function Button(props: Props) {
