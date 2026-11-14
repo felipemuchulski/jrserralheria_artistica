@@ -42,10 +42,11 @@ A interface será composta pelas seguintes seções:
 1. Header - Navegação principal.
 2. HeroSection - Apresentação da marca e slideshow de projetos.
 3. FeaturedProjects - Projetos em destaque.
-4. PortfolioSection - Galeria completa com filtros.
-5. AboutSection - Apresentação da empresa.
-6. ContactSection - Contato comercial e orçamento.
-7. Footer - Informações e links complementares.
+4. ServicesSection - Serviços com fotografias de referência, identificadas como ilustrativas.
+5. PortfolioSection - Galeria completa com filtros e fotografias reais.
+6. AboutSection - Apresentação da empresa.
+7. ContactSection - Contato comercial e orçamento.
+8. Footer - Informações e links complementares.
 
 ### 5. Tecnologias
 - React - Construção da interface

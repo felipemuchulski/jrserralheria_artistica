@@ -1,0 +1,1536 @@
+{
+  "data": "2026-11-13",
+  "ambiente": "Chromium headless via CDP, Vite local, altura 900 px",
+  "antes": [
+    {
+      "viewport": 320,
+      "overflow": false,
+      "container": {
+        "width": 320,
+        "height": 926,
+        "x": 0,
+        "padding": "0px 20px"
+      },
+      "hero": {
+        "width": 320,
+        "height": 1054,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 280,
+        "height": 350,
+        "x": 20,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 280,
+        "height": 487,
+        "x": 20,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 375,
+      "overflow": false,
+      "container": {
+        "width": 375,
+        "height": 933.75,
+        "x": 0,
+        "padding": "0px 20px"
+      },
+      "hero": {
+        "width": 375,
+        "height": 1061.75,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 335,
+        "height": 418.75,
+        "x": 20,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 335,
+        "height": 555.75,
+        "x": 20,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 425,
+      "overflow": false,
+      "container": {
+        "width": 425,
+        "height": 970.25,
+        "x": 0,
+        "padding": "0px 20px"
+      },
+      "hero": {
+        "width": 425,
+        "height": 1098.25,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 385,
+        "height": 481.25,
+        "x": 20,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 385,
+        "height": 595.5,
+        "x": 20,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 768,
+      "overflow": false,
+      "container": {
+        "width": 768,
+        "height": 1043.6875,
+        "x": 0,
+        "padding": "0px 32px"
+      },
+      "hero": {
+        "width": 768,
+        "height": 1203.6875,
+        "x": 0,
+        "padding": "80px 0px"
+      },
+      "photo": {
+        "width": 704,
+        "height": 563.1875,
+        "x": 32,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 340,
+        "height": 562,
+        "x": 32,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 1024,
+      "overflow": false,
+      "container": {
+        "width": 1024,
+        "height": 604,
+        "x": 0,
+        "padding": "0px 48px"
+      },
+      "hero": {
+        "width": 1024,
+        "height": 828,
+        "x": 0,
+        "padding": "112px 0px"
+      },
+      "photo": {
+        "width": 432,
+        "height": 540,
+        "x": 544,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 293.328125,
+        "height": 503.671875,
+        "x": 48,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 1280,
+      "overflow": false,
+      "container": {
+        "width": 1200,
+        "height": 714,
+        "x": 40,
+        "padding": "0px 48px"
+      },
+      "hero": {
+        "width": 1280,
+        "height": 938,
+        "x": 0,
+        "padding": "112px 0px"
+      },
+      "photo": {
+        "width": 520,
+        "height": 650,
+        "x": 672,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 352,
+        "height": 554.25,
+        "x": 88,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 1440,
+      "overflow": false,
+      "container": {
+        "width": 1200,
+        "height": 714,
+        "x": 120,
+        "padding": "0px 48px"
+      },
+      "hero": {
+        "width": 1440,
+        "height": 938,
+        "x": 0,
+        "padding": "112px 0px"
+      },
+      "photo": {
+        "width": 520,
+        "height": 650,
+        "x": 752,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 352,
+        "height": 554.25,
+        "x": 168,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    },
+    {
+      "viewport": 1920,
+      "overflow": false,
+      "container": {
+        "width": 1200,
+        "height": 714,
+        "x": 360,
+        "padding": "0px 48px"
+      },
+      "hero": {
+        "width": 1920,
+        "height": 938,
+        "x": 0,
+        "padding": "112px 0px"
+      },
+      "photo": {
+        "width": 520,
+        "height": 650,
+        "x": 992,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 352,
+        "height": 554.25,
+        "x": 408,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(255, 255, 255)"
+      }
+    }
+  ],
+  "depois": [
+    {
+      "viewport": 320,
+      "overflow": false,
+      "container": {
+        "width": 320,
+        "height": 918,
+        "x": 0,
+        "padding": "0px 20px"
+      },
+      "hero": {
+        "width": 320,
+        "height": 998,
+        "x": 0,
+        "padding": "40px 0px"
+      },
+      "photo": {
+        "width": 280,
+        "height": 350,
+        "x": 20,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 280,
+        "height": 487,
+        "x": 20,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 375,
+      "overflow": false,
+      "container": {
+        "width": 375,
+        "height": 925.75,
+        "x": 0,
+        "padding": "0px 20px"
+      },
+      "hero": {
+        "width": 375,
+        "height": 1005.75,
+        "x": 0,
+        "padding": "40px 0px"
+      },
+      "photo": {
+        "width": 335,
+        "height": 418.75,
+        "x": 20,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 335,
+        "height": 555.75,
+        "x": 20,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 425,
+      "overflow": false,
+      "container": {
+        "width": 425,
+        "height": 962.25,
+        "x": 0,
+        "padding": "0px 20px"
+      },
+      "hero": {
+        "width": 425,
+        "height": 1042.25,
+        "x": 0,
+        "padding": "40px 0px"
+      },
+      "photo": {
+        "width": 385,
+        "height": 481.25,
+        "x": 20,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 385,
+        "height": 595.5,
+        "x": 20,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 768,
+      "overflow": false,
+      "container": {
+        "width": 768,
+        "height": 1035.6875,
+        "x": 0,
+        "padding": "0px 32px"
+      },
+      "hero": {
+        "width": 768,
+        "height": 1147.6875,
+        "x": 0,
+        "padding": "56px 0px"
+      },
+      "photo": {
+        "width": 704,
+        "height": 563.1875,
+        "x": 32,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 340,
+        "height": 570,
+        "x": 32,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 1024,
+      "overflow": false,
+      "container": {
+        "width": 1024,
+        "height": 585.75,
+        "x": 0,
+        "padding": "0px 40px"
+      },
+      "hero": {
+        "width": 1024,
+        "height": 713.75,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 492.8125,
+        "height": 492.8125,
+        "x": 491.1875,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 293.328125,
+        "height": 511.671875,
+        "x": 40,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 1280,
+      "overflow": false,
+      "container": {
+        "width": 1280,
+        "height": 689.609375,
+        "x": 0,
+        "padding": "0px 40px"
+      },
+      "hero": {
+        "width": 1280,
+        "height": 817.609375,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 633.609375,
+        "height": 633.609375,
+        "x": 606.390625,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 378.65625,
+        "height": 595.578125,
+        "x": 40,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 1440,
+      "overflow": false,
+      "container": {
+        "width": 1360,
+        "height": 733.609375,
+        "x": 40,
+        "padding": "0px 40px"
+      },
+      "hero": {
+        "width": 1440,
+        "height": 861.609375,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 677.609375,
+        "height": 677.609375,
+        "x": 682.390625,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 405.328125,
+        "height": 628.921875,
+        "x": 80,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    },
+    {
+      "viewport": 1920,
+      "overflow": false,
+      "container": {
+        "width": 1360,
+        "height": 733.609375,
+        "x": 280,
+        "padding": "0px 40px"
+      },
+      "hero": {
+        "width": 1920,
+        "height": 861.609375,
+        "x": 0,
+        "padding": "64px 0px"
+      },
+      "photo": {
+        "width": 677.609375,
+        "height": 677.609375,
+        "x": 922.390625,
+        "padding": "0px"
+      },
+      "card": {
+        "width": 405.328125,
+        "height": 628.921875,
+        "x": 320,
+        "padding": "0px"
+      },
+      "contactButton": {
+        "background": "rgb(255, 255, 255)",
+        "color": "rgb(36, 40, 44)"
+      }
+    }
+  ],
+  "regressao": [
+    {
+      "name": "layout e modal 320px",
+      "status": "PASS",
+      "data": {
+        "x": 16,
+        "width": 288,
+        "height": 548.203125,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 375px",
+      "status": "PASS",
+      "data": {
+        "x": 16,
+        "width": 343,
+        "height": 621.515625,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 425px",
+      "status": "PASS",
+      "data": {
+        "x": 16,
+        "width": 393,
+        "height": 650.15625,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 768px",
+      "status": "PASS",
+      "data": {
+        "x": 16,
+        "width": 736,
+        "height": 712,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 1024px",
+      "status": "PASS",
+      "data": {
+        "x": 64,
+        "width": 896,
+        "height": 712,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 1280px",
+      "status": "PASS",
+      "data": {
+        "x": 192,
+        "width": 896,
+        "height": 712,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 1440px",
+      "status": "PASS",
+      "data": {
+        "x": 272,
+        "width": 896,
+        "height": 712,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "layout e modal 1920px",
+      "status": "PASS",
+      "data": {
+        "x": 512,
+        "width": 896,
+        "height": 712,
+        "overflow": false,
+        "body": "hidden",
+        "focus": true
+      }
+    },
+    {
+      "name": "menu mobile, Escape, âncora, resize, sticky",
+      "status": "PASS"
+    },
+    {
+      "name": "todos os filtros e rolagem horizontal",
+      "status": "PASS"
+    },
+    {
+      "name": "slideshow automático, pausa, retomada e indicadores",
+      "status": "PASS",
+      "data": {
+        "visible": 1,
+        "priority": "high",
+        "targets": [
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ],
+          [
+            44,
+            44
+          ]
+        ]
+      }
+    },
+    {
+      "name": "movimento reduzido inicial e alteração em tempo real",
+      "status": "PASS"
+    },
+    {
+      "name": "metadados, HTML, fontes, URLs, ARIA e imagens",
+      "status": "PASS",
+      "data": {
+        "lang": "pt-BR",
+        "description": true,
+        "h1": 1,
+        "invalid": 0,
+        "url": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Metal%20%26%20madeira%3F",
+        "instagram": "https://www.instagram.com/jrserralheria_artistica/",
+        "links": [
+          {
+            "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Conheci%20os%20trabalhos%20da%20JR%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.instagram.com/jrserralheria_artistica/",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://wa.me/5554992707452?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento.",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "https://www.instagram.com/jrserralheria_artistica/",
+            "rel": "noopener noreferrer"
+          }
+        ],
+        "missingAria": [],
+        "fonts": true,
+        "images": [
+          {
+            "src": "/images/projects/moveis-artisticos/estante-ampla-metal-madeira.webp",
+            "status": 200
+          },
+          {
+            "src": "/images/projects/moveis-artisticos/estante-vertical-metal-madeira.webp",
+            "status": 200
+          },
+          {
+            "src": "/images/projects/moveis-artisticos/prateleira-suspensa-cozinha.webp",
+            "status": 200
+          }
+        ]
+      }
+    },
+    {
+      "name": "modal 0/1/3 imagens, circularidade, desmontagem e foco",
+      "status": "PASS"
+    },
+    {
+      "name": "slideshow vazio/único/array reduzido, card sem foto e botão disabled",
+      "status": "PASS"
+    },
+    {
+      "name": "FeaturedProjects: featured, limite de três e lista vazia",
+      "status": "PASS"
+    },
+    {
+      "name": "limpeza de intervalos do slideshow em Strict Mode",
+      "status": "PASS"
+    },
+    {
+      "name": "sem exceções JavaScript",
+      "status": "PASS"
+    }
+  ],
+  "visual": [
+    {
+      "name": "refinamento visual 320px",
+      "status": "PASS",
+      "data": {
+        "viewport": 320,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 20,
+              "y": 6612,
+              "width": 280,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 20,
+              "y": 6678,
+              "width": 280,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": 1315,
+            "height": 487
+          },
+          {
+            "y": 1826,
+            "height": 487
+          },
+          {
+            "y": 2337,
+            "height": 487
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 375px",
+      "status": "PASS",
+      "data": {
+        "viewport": 375,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 20,
+              "y": 430.5,
+              "width": 335,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 20,
+              "y": 496.5,
+              "width": 335,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -5045.25,
+            "height": 555.75
+          },
+          {
+            "y": -4465.5,
+            "height": 533
+          },
+          {
+            "y": -3908.5,
+            "height": 533
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 425px",
+      "status": "PASS",
+      "data": {
+        "viewport": 425,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 20,
+              "y": 404.5,
+              "width": 385,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 20,
+              "y": 470.5,
+              "width": 385,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -5327.75,
+            "height": 595.5
+          },
+          {
+            "y": -4708.25,
+            "height": 595.5
+          },
+          {
+            "y": -4088.75,
+            "height": 595.5
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 768px",
+      "status": "PASS",
+      "data": {
+        "viewport": 768,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 32,
+              "y": 374.984375,
+              "width": 200.625,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 248.625,
+              "y": 374.984375,
+              "width": 258.359375,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -3988.3125,
+            "height": 570
+          },
+          {
+            "y": -3988.3125,
+            "height": 570
+          },
+          {
+            "y": -3394.3125,
+            "height": 570
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 1024px",
+      "status": "PASS",
+      "data": {
+        "viewport": 1024,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 600,
+              "y": 184.96875,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 600,
+              "y": 250.96875,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -2300.25,
+            "height": 511.671875
+          },
+          {
+            "y": -2300.25,
+            "height": 511.671875
+          },
+          {
+            "y": -2300.25,
+            "height": 511.671875
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 1280px",
+      "status": "PASS",
+      "data": {
+        "viewport": 1280,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 856,
+              "y": 200.203125,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 856,
+              "y": 266.203125,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -2423.390625,
+            "height": 595.578125
+          },
+          {
+            "y": -2423.390625,
+            "height": 595.578125
+          },
+          {
+            "y": -2423.390625,
+            "height": 595.578125
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 1440px",
+      "status": "PASS",
+      "data": {
+        "viewport": 1440,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 976,
+              "y": 199.890625,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 976,
+              "y": 265.890625,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -2528.390625,
+            "height": 628.921875
+          },
+          {
+            "y": -2528.390625,
+            "height": 628.921875
+          },
+          {
+            "y": -2528.390625,
+            "height": 628.921875
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "refinamento visual 1920px",
+      "status": "PASS",
+      "data": {
+        "viewport": 1920,
+        "overflow": false,
+        "clipped": [],
+        "missingTargets": [],
+        "images": [
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "cover"
+          },
+          {
+            "loaded": true,
+            "fit": "contain"
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 1216,
+              "y": 236.890625,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgb(255, 255, 255)",
+            "color": "rgb(36, 40, 44)"
+          },
+          {
+            "rect": {
+              "x": 1216,
+              "y": 302.890625,
+              "width": 384,
+              "height": 50
+            },
+            "background": "rgba(0, 0, 0, 0)",
+            "color": "rgb(255, 255, 255)"
+          }
+        ],
+        "cardHeights": [
+          {
+            "y": -2491.390625,
+            "height": 628.921875
+          },
+          {
+            "y": -2491.390625,
+            "height": 628.921875
+          },
+          {
+            "y": -2491.390625,
+            "height": 628.921875
+          }
+        ],
+        "aboutBackground": "rgb(255, 255, 255)",
+        "contactBackground": "rgb(36, 40, 44)",
+        "originalTokens": [
+          "#f7f5f0",
+          "#24282c",
+          "#b77945",
+          "#ffffff",
+          "#62686b",
+          "#e5e2dc",
+          "#89552e"
+        ]
+      }
+    },
+    {
+      "name": "inverse: hover e foco por teclado",
+      "status": "PASS",
+      "data": {
+        "bg": "rgb(247, 245, 240)",
+        "color": "rgb(36, 40, 44)"
+      }
+    }
+  ]
+}
