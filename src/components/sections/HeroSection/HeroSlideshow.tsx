@@ -1,8 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect, useId, useState } from "react";
 
 type Slide = {
   src: string;
   alt: string;
+  objectPosition?: string;
 };
 
 type HeroSlideshowProps = {
@@ -10,6 +11,7 @@ type HeroSlideshowProps = {
 };
 
 export function HeroSlideshow({ images }: HeroSlideshowProps) {
+  const captionId = useId();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const [reduceMotion, setReduceMotion] = useState(() => window.matchMedia("(prefers-reduced-motion: reduce)").matches);
@@ -58,7 +60,8 @@ export function HeroSlideshow({ images }: HeroSlideshowProps) {
     <div
       className="w-full"
       role="region"
-      aria-label="Fotografias de projetos"
+      aria-label="Fotografias ilustrativas de serviços"
+      aria-describedby={captionId}
       aria-roledescription="carrossel"
       onFocusCapture={(event) => {
         if (
@@ -67,7 +70,7 @@ export function HeroSlideshow({ images }: HeroSlideshowProps) {
         ) setIsPaused(true);
       }}
     >
-      <div className="relative aspect-[4/5] overflow-hidden rounded-card bg-surface sm:aspect-[5/4] lg:aspect-[4/5]">
+      <div className="relative aspect-[4/5] overflow-hidden rounded-card bg-surface md:aspect-square">
         {images.map((image, index) => (
           <img
             key={image.src}
@@ -76,6 +79,7 @@ export function HeroSlideshow({ images }: HeroSlideshowProps) {
             loading={index === 0 ? "eager" : "lazy"}
             fetchPriority={index === 0 ? "high" : "auto"}
             aria-hidden={index !== activeIndex}
+            style={{ objectPosition: image.objectPosition }}
             className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 motion-reduce:transition-none ${
               index === activeIndex
                 ? "z-10 opacity-100"
@@ -85,8 +89,12 @@ export function HeroSlideshow({ images }: HeroSlideshowProps) {
         ))}
       </div>
 
+      <p id={captionId} className="mt-3 font-body text-xs leading-relaxed text-muted">
+        Fotografias ilustrativas de serviços.
+      </p>
+
       {images.length > 1 && (
-        <div className="mt-5 flex items-center justify-center gap-3">
+        <div className="mt-3 flex items-center justify-center gap-2">
           {images.map((image, index) => (
             <button
               key={image.src}

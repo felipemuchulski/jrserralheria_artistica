@@ -5,16 +5,19 @@ import { HeroSlideshow } from "./HeroSlideshow";
 
 const heroImages = [
   {
-    src: "/images/projects/moveis-artisticos/estante-ampla-metal-madeira.webp",
-    alt: "Estante com estrutura metálica e prateleiras de madeira",
+    src: "/images/hero/hero-moveis-ilustrativo.jpg",
+    alt: "Referência ilustrativa de estante metálica com composição geométrica e livros",
+    objectPosition: "center 40%",
   },
   {
-    src: "/images/projects/moveis-artisticos/estante-vertical-metal-madeira.webp",
-    alt: "Estante vertical com estrutura metálica",
+    src: "/images/hero/hero-toldos-ilustrativo.jpg",
+    alt: "Referência ilustrativa de toldo sobre um pátio com mesas e cadeiras",
+    objectPosition: "center 20%",
   },
   {
-    src: "/images/projects/moveis-artisticos/prateleira-suspensa-cozinha.webp",
-    alt: "Prateleira suspensa com estrutura metálica",
+    src: "/images/hero/hero-serralheria-ilustrativo.jpg",
+    alt: "Referência ilustrativa de portão metálico em uma entrada com arco",
+    objectPosition: "center bottom",
   },
 ];
 
@@ -23,13 +26,13 @@ export function HeroSection() {
     <section
       id="inicio"
       aria-labelledby="hero-title"
-      className="scroll-mt-24 py-16 md:py-20 lg:py-28"
+      className="scroll-mt-24 py-10 md:py-14 lg:py-16"
     >
       <Container>
-        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-center gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:gap-12">
           {/* Conteúdo textual */}
 
-          <div className="flex flex-col items-start">
+          <div className="flex min-w-0 flex-col items-start">
             <span className="mb-4 font-body text-xs font-semibold uppercase tracking-widest text-accent-strong ">
               JR Serralheria Tradicional e Artística
             </span>
